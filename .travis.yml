@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "0.10"
+  - "4.8"
+  - "6.11"
+  - "8.6"
+sudo: false
+cache:
+  directories:
+    - node_modules
+before_install:
+  - "npm install"
+after_script:
+  # Report coverage
+  - "npm test"

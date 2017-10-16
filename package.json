@@ -7,7 +7,10 @@
     "name": "Olivier Teissere",
     "email": "olivier.teissere@orange.com"
   },
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Orange-OpenSource/OCast-DongletTV-JS.git"
+  },
   "license": "MIT",
   "keywords": [
     "javascript",
@@ -51,6 +54,7 @@
     "lodash": "^3.10.1",
     "node-browser": "0.0.3",
     "node-ssdp": "^2.7.1",
+    "ocast-sdk": "^0.1.1",
     "open": "0.0.5",
     "opn": "^5.1.0",
     "pkill": "^2.0.0",
