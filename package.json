@@ -1,6 +1,6 @@
 {
   "name": "ocast-dongletv",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "main": "cli.js",
   "description": "Simulate dongle to receiver messaging",
   "author": {
