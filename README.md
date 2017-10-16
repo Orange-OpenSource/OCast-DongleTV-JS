@@ -3,13 +3,11 @@
 [![Build Status](https://travis-ci.org/Orange-OpenSource/OCast-DongleTV-JS.svg?branch=master)](https://travis-ci.org/Orange-OpenSource/OCast-DongleTV-JS)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-> Simulate sender App messaging to receiver messaging
-
+> Dongle TV Simulator
 
 ## Usages
-> * for localhost browser test command send form computer
-> * for stick test and command send form computer
-
+> * develop and test your web application locally
+> * develop and test your mobile application with a sample web application
 
 ***
 
