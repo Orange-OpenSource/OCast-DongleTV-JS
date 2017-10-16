@@ -1,5 +1,6 @@
 # Ocast-DongleTV-JS
 [![npm version](https://badge.fury.io/js/ocast-dongletv.svg)](http://badge.fury.io/js/ocast-dongletv)
+[![node](https://img.shields.io/node/v/ocast-dongletv-iconify.svg)](https://www.npmjs.com/package/ocast-dongletv-iconify)
 [![Build Status](https://travis-ci.org/Orange-OpenSource/OCast-DongleTV-JS.svg?branch=master)](https://travis-ci.org/Orange-OpenSource/OCast-DongleTV-JS)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
