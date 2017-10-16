@@ -1,6 +1,6 @@
 # Ocast-DongleTV-JS
 [![npm version](https://badge.fury.io/js/ocast-dongletv.svg)](http://badge.fury.io/js/ocast-dongletv)
-[![Build Status](https://travis-ci.org/Orange-OpenSource/OCast-DongletTV-JS.svg?branch=master)](https://travis-ci.org/Orange-OpenSource/OCast-DongleTV-JS)
+[![Build Status](https://travis-ci.org/Orange-OpenSource/OCast-DongleTV-JS.svg?branch=master)](https://travis-ci.org/Orange-OpenSource/OCast-DongleTV-JS)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 > Simulate sender App messaging to receiver messaging
