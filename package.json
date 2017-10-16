@@ -54,7 +54,7 @@
     "lodash": "^3.10.1",
     "node-browser": "0.0.3",
     "node-ssdp": "^2.7.1",
-    "ocast-sdk": "^1.0.0",
+    "ocast-sdk": "latest",
     "open": "0.0.5",
     "opn": "^5.1.0",
     "pkill": "^2.0.0",
