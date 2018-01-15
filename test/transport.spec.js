@@ -7,7 +7,7 @@ var messageToParse =  { "dst":null,
                         "id":-1,
                         "message":null};
 
-describe('OrangeCastTransport', function(){
+describe('OCastTransport', function(){
     describe('toJSON()', function(){
         it('should return a valid default message', function(){
             var message = new OrangeCastTransport();

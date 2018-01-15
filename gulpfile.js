@@ -16,7 +16,7 @@ gulp.task('default', function() {
 });
 
 gulp.task('jshint', function () {
-    return gulp.src(['./gulpfile.js', './lib/*.js', './test/www/js/orangecast/**/*.js'])
+    return gulp.src(['./gulpfile.js', './lib/*.js', './test/www/js/ocast-sdk/**/*.js'])
         .pipe($.jshint('.jshintrc'))
         .pipe($.plumber(plumberConf))
         .pipe($.jscs())
