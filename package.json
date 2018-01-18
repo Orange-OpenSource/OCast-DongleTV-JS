@@ -17,7 +17,7 @@
   "license": "MIT",
   "keywords": [
     "javascript",
-    "opencast",
+    "ocast",
     "dongle JS"
   ],
   "devDependencies": {
