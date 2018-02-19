@@ -108,7 +108,7 @@ start the websocket server via:
 ##### Load a video and autoplay
 
 
-    $ d2r load http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4 video
+    $ d2r load http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_2mb.mp4 video
 
 ##### Load a video and:
 * autoplay
@@ -126,23 +126,18 @@ start the websocket server via:
 * display audio description logo
 
 ```sh
-$ d2r load http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4 video/ -t "Un lapin très méchant" -a -l "http://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg" -s "VOD" -T "Prochain film violent" -b "1421934514" -e "1421941714" -B "1421942134" -g "Film avec des méchants" -c 16 -r -h -d
+$ d2r load http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_2mb.mp4 video/ -t "New Title"
 ```
 
 ##### Load a music and autoplay
 ```sh
-$ d2r load http://datashat.net/music_for_programming_28-big_war.mp3 audio
+$ d2r load http://www.sample-videos.com/audio/mp3/crowd-cheering.mp3 audio
 ```
 
 ##### Load an image
 
 ```sh
-$ d2r load http://media.topito.com/wp-content/uploads/2011/06/132.jpg image
-```
-
-Works with GIF also.
-```sh
-$ d2r load http://media0.giphy.com/media/17RaL7HOgI1CE/giphy.gif image
+$ d2r load http://www.sample-videos.com/img/Sample-jpg-image-100kb.jpg image
 ```
 
 ### Play
