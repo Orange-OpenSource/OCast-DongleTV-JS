@@ -106,15 +106,18 @@ params.command('test <sample_name>')
     .action(function (sample) {
         var type = null;
         var url = null;
+        var logo = null;
+        var options = {};
         switch (sample) {
             case "smooth": url="http://sample.vodobox.com/planete_interdite/planete_interdite_alternate.m3u8"; type="video"; break;
-            case "mp4": url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4";type="video"; break;
+            case "mp4": url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4";type="video";logo="http://c.orange.fr/logo-orange.png" ;break;
             case "jpg": url="http://placekitten.com/g/800/600";type="image"; break;
             case "gif": url="http://gifs.gifbin.com/092010/1284373741_goalie-penalty-kick-fail.gif";type="image"; break;
             case "mp3": url="http://datashat.net/music_for_programming_15-dan_adeyemi.mp3";type="audio"; break;
+            case "f2": logger.debug("f2");url="https://ssl-sso.orange.fr/lctv/live/live-webapp/LCTV/user/live/channel/4/url.json"; type="video"; options= {type: "LIVE"};break;
             default: logger.error("Sample "+sample+" not found !"); exit();
         }
-        client.prepare(url,type);
+        client.prepare(url,type, logo, options);
     });
 params.command('start [env]')
     .description('Start service [broker|dialserver|webserver|all]')
@@ -155,3 +158,5 @@ exports.broker = broker;
 exports.dialserver = dialserver;
 exports.webserver = webserver;
 exports.client = client;
+
+
