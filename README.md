@@ -1,4 +1,5 @@
-!! Deprecated. Please use:
+!! DEPERCATED
+Please use:
 - DongleTV simulator https://github.com/Orange-OpenSource/ocast-dongletv-simulator to simulate dongle TV
 - OCast JS controller https://github.com/Orange-OpenSource/ocast-js-controller to test comuunication with a dongle TV
 
