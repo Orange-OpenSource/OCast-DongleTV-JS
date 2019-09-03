@@ -1,3 +1,7 @@
+!! Deprecated. Please use:
+- DongleTV simulator https://github.com/Orange-OpenSource/ocast-dongletv-simulator to simulate dongle TV
+- OCast JS controller https://github.com/Orange-OpenSource/ocast-js-controller to test comuunication with a dongle TV
+
 # Ocast-DongleTV-JS
 [![npm version](https://badge.fury.io/js/ocast-dongletv.svg)](http://badge.fury.io/js/ocast-dongletv)
 [![node](https://img.shields.io/node/v/ocast-dongletv-iconify.svg)](https://www.npmjs.com/package/ocast-dongletv-iconify)
